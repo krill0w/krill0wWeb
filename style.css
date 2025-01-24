@@ -8,6 +8,12 @@
     src: url("NectoMono-Regular.woff2"); format("woff2")
 }
 
+body{
+    background-color: #86ca91;
+    height: 100%;
+    overflow: hidden;
+}
+
 .container {
     width:100%;
     display: flex;
@@ -27,8 +33,3 @@
     font-family: 'NectoMono';
 }
 
-body{
-    background-color: #86ca91;
-    height: 100%;
-    overflow: hidden;
-}
