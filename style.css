@@ -1,11 +1,11 @@
 @font-face {
     font-family: "SpecialElite";
-    src: url("SpecialElite.ttf"); format("ttf")
+    src: url("Assets/Fonts/SpecialElite.ttf"); format("ttf")
 }
 
 @font-face {
     font-family: "NectoMono";
-    src: url("NectoMono-Regular.woff2"); format("woff2")
+    src: url("Assets/Fonts/NectoMono-Regular.woff2"); format("woff2")
 }
 
 body{
@@ -23,13 +23,13 @@ body{
 
 .title {
     font-size: 5vw;
-    font-family: SpecialElite;
+    font-family: SpecialElite, monospace;
 }
 
 .content {
     padding-bottom: .3em;
     font-size: 2vw;
     text-align: center;
-    font-family: 'NectoMono';
+    font-family: 'NectoMono', monospace;
 }
 
