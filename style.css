@@ -11,11 +11,24 @@
 .container {
     width:100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .title {
-    padding-bottom: .3em;
-    font-size: 4em;
+    font-size: 5vw;
     font-family: SpecialElite;
+}
+
+.content {
+    padding-bottom: .3em;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'NectoMono';
+}
+
+body{
+    background-color: #86ca91;
+    height: 100%;
+    overflow: hidden;
 }
