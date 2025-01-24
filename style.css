@@ -22,13 +22,13 @@ body{
 }
 
 .title {
-    font-size: 5vw;
+    font-size: 3em;
     font-family: SpecialElite, monospace;
 }
 
 .content {
     padding-bottom: .3em;
-    font-size: 2vw;
+    font-size: 1em;
     text-align: center;
     font-family: 'NectoMono', monospace;
 }
