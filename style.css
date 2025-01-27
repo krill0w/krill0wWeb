@@ -34,10 +34,14 @@ body{
 
 }
 
-.content {
+.page {
     padding-bottom: .3em;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
     font-family: 'NectoMono', monospace;
+}
+
+.content {
+    text-align: left;
 }
 
