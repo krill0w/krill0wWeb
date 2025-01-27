@@ -37,7 +37,7 @@ body{
 .content {
     padding-bottom: .3em;
     font-size: 1em;
-    text-align: center;
+    text-align: left;
     font-family: 'NectoMono', monospace;
 }
 
