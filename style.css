@@ -24,11 +24,14 @@ body{
 .title {
     font-size: 3em;
     font-family: SpecialElite, monospace;
+    margin-bottom: 8px;
 }
 
 .subtitle {
     font-size: 1em;
     font-family: 'NectoMono', monospace;
+    margin: 8px;
+
 }
 
 .content {
