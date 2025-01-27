@@ -26,6 +26,11 @@ body{
     font-family: SpecialElite, monospace;
 }
 
+.subtitle {
+    font-size: 2em;
+    font-family: 'NectoMono', monospace;
+}
+
 .content {
     padding-bottom: .3em;
     font-size: 1em;
