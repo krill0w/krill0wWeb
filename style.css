@@ -44,7 +44,7 @@ body{
 .fancy-link {
     color:#62966b;
     transition: color .1s, background-color .1s;
-    background-color: #86ca9133;
+    background-color: #a4c6aa33;
     text-decoration: none;
     border-radius: 4px;
     padding: .16em .3em;
