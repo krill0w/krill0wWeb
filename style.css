@@ -42,7 +42,7 @@ body{
 }
 
 .content {
-    padding: 5em;
+    padding: 0em 5em;
 }
 
 .content > p {
