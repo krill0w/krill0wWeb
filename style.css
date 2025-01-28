@@ -42,7 +42,7 @@ body{
 }
 
 .content {
-    text-align: left;
+    justify-content: left;
     padding-left: 2em;
 }
 
