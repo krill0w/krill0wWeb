@@ -1,11 +1,11 @@
 @font-face {
     font-family: "SpecialElite";
-    src: url("Assets/Fonts/SpecialElite.woff2"); format("woff2")
+    src: url("Assets/Fonts/SpecialElite.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "NectoMono";
-    src: url("Assets/Fonts/NectoMono-Regular.woff2"); format("woff2")
+    src: url("Assets/Fonts/NectoMono-Regular.woff2") format("woff2");
 }
 
 body{
