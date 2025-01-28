@@ -35,16 +35,8 @@ body{
 }
 
 .page {
-    padding-bottom: .3em;
-    font-size: 1em;
-    text-align: center;
-    font-family: 'NectoMono', monospace;
-}
-
-.content {
     padding: 0em 15vw;
-}
-
-.content > p {
-    text-align: left;
+    font-size: 1em;
+    justify-content: left;
+    font-family: 'NectoMono', monospace;
 }
