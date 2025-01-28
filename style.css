@@ -40,3 +40,7 @@ body{
     justify-content: left;
     font-family: 'NectoMono', monospace;
 }
+
+.fancy-link {
+    background-color: paleturquoise;
+}
