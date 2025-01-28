@@ -42,7 +42,9 @@ body{
 }
 
 .content {
-    justify-content: left;
-    padding-left: 2em;
+    padding: 5em;
 }
 
+.content > p {
+    text-align: center;
+}
