@@ -5,39 +5,12 @@
   <meta charset="UTF-8">
   <title>happy valentines</title>
   <link rel="stylesheet" href="./style.css">
-  <script>
-	$( document ).ready(function() {
-    
-    var envelope = $('#envelope');
-    var btn_open = $("#open");
-    var btn_reset = $("#reset");
-    
-    envelope.click( function() {
-        open();
-    });
-    btn_open.click( function() {
-        open();
-    });
-    btn_reset.click( function() {
-        close();
-    });
-
-    function open() {
-        envelope.addClass("open")
-           .removeClass("close");
-    }
-    function close() {
-        envelope.addClass("close")
-           .removeClass("open");
-    }
-   
-});
-</script>
+  <script src="./script.js"></script>
 </head>
 
 <body>
   <div class="envlope-wrapper">
-    <div id="envelope" class="open">
+    <div id="envelope" class="close">
       <div class="front flap"></div>
       <div class="front pocket"></div>
       <div class="letter">
