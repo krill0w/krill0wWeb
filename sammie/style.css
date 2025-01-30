@@ -7,7 +7,7 @@
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  top: 50px;
+  top: 150px;
   background-color: #f9c5c8;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -234,11 +234,11 @@ body {
   height: 380px;
 }
 
-.reset {
+.open {
   text-align: center;
 }
 
-.reset button {
+.open button {
   font-weight: 800;
   font-style: normal;
   transition: all 0.1s linear;
@@ -258,7 +258,7 @@ body {
   cursor: pointer;
 }
 
-.reset button:hover {
+.open button:hover {
   background-color: #fc9d9d;
   color: #a10000;
 }
