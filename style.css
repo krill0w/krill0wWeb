@@ -52,3 +52,18 @@ body{
     line-height: 1.7;
     white-space: nowrap;
 }
+
+.hidden-link {
+    color: #86ca91;
+    text-decoration: none;
+}
+
+.hidden-link > a:hover {
+    color: #86ca91;
+    text-decoration: none;
+}
+
+.hidden-link > a:visited {
+    color: #86ca91;
+    text-decoration: none;
+}
