@@ -1,28 +1,18 @@
-$( document ).ready(function() {
+$(document).ready(function () {
+    var envelope = $("#envelope");
 
-    var envelope = $('#envelope');
-    var btn_open = $("#open");
-    var btn_reset = $("#reset");
-
-    envelope.click( function() {
+    envelope.click(function () {
         open();
-    });
-    btn_open.click( function() {
-        open();
-    });
-    btn_reset.click( function() {
-        close();
+        setTimeout(toLetter, 7000);
     });
 
     function open() {
-        envelope.addClass("open")
-            .removeClass("close");
-        document.querySelector('#open').innerText = 'Open Again ;)';
+        envelope.addClass("open").removeClass("close");
+    }
 
+    function toLetter() {
+        window.location.href = "" // this will forward to an unlisted video on my yt channel
     }
-    function close() {
-        envelope.addClass("close")
-           .removeClass("open");
-    }
+
 
 });

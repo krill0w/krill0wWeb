@@ -228,17 +228,18 @@
 }
 body {
   background-color: #f7d9da;
+  overflow: hidden;
 }
 
 .envelope-wrapper {
   height: 380px;
 }
 
-.open {
+.reset {
   text-align: center;
 }
 
-.open button {
+.reset button {
   font-weight: 800;
   font-style: normal;
   transition: all 0.1s linear;
@@ -258,7 +259,7 @@ body {
   cursor: pointer;
 }
 
-.open button:hover {
+.reset button:hover {
   background-color: #fc9d9d;
   color: #a10000;
 }
