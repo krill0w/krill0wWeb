@@ -1,5 +1,5 @@
 const images = [
-    { id: 1, url: 'krill0w.garden/assets/images/constructionCat.jpg', description: 'Image 1' },
+    { id: 1, url: 'https://www.krill0w.garden/assets/images/constructionCat.jpg', description: 'Image 1' },
     { id: 2, url: 'images/image2.jpg', description: 'Image 2' },
     { id: 3, url: 'images/image3.jpg', description: 'Image 3' },
     { id: 4, url: 'images/image4.jpg', description: 'Image 4' },
