@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tea timer</title>
+    <script>
+        let timerInterval;
+
+        function startTimer(seconds) {
+            clearInterval(timerInterval);
+            let timeRemaining = seconds;
+            updateTimerDisplay(timeRemaining);
+
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                updateTimerDisplay(timeRemaining);
+
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    document.getElementById('timer').innerText = 'tea is brewed!';
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay(timeRemaining) {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            document.getElementById('timer').innerText = `${minutes}m ${seconds}s`;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>tea timer</h1>
+        <button class="button button1" onclick="startTimer(180)">light</br>brew</button>
+        <button class="button button2" onclick="startTimer(300)">heavy</br>brew</button>
+        <div id="timer">waiting</div>
+    </div>
+</body>
+
+</html>

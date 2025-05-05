@@ -9,7 +9,13 @@
 }
 
 body{
-    background-color: #86ca91;
+    background-image: url("assets/images/websiteBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
     height: 100%;
     overflow: hidden;
 }
@@ -31,7 +37,12 @@ body{
     font-size: 1em;
     font-family: 'NectoMono', monospace;
     margin-top: 8px;
+}
 
+.subsubtitle {
+    font-size: .95em;
+    font-family: 'NectoMono', monospace;
+    margin-top: 4px;
 }
 
 .page {
@@ -66,4 +77,9 @@ body{
 .hidden-link > a:visited {
     color: #86ca91;
     text-decoration: none;
+}
+
+.loading {
+    width: 2em;
+    padding-left: 15vw;
 }

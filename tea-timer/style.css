@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Penpoint";
+    src: url("Penpoint.woff2") format("woff2");
+}
+
+:root {
+    --pistachio: #bcd274ff;
+    --jordy-blue: #95b4eeff;
+    --hookers-green: #437566ff;
+    --beaver: #a18276ff;
+    --eggplant: #453643ff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Penpoint";
+    background-color: var(--pistachio);
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    font-family: "Penpoint";
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.button1:hover {
+    background-color: #45a049;
+}
+
+.button2 {
+    background-color: #f44336;
+    /* Red */
+}
+
+.button2:hover {
+    background-color: #e53935;
+}
+
+#timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
