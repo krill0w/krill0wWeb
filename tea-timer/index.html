@@ -20,7 +20,7 @@
 
                 if (timeRemaining <= 0) {
                     clearInterval(timerInterval);
-                    document.getElementById('timer').innerText = 'Time is up!';
+                    document.getElementById('timer').innerText = 'tea is brewed!';
                 }
             }, 1000);
         }
@@ -38,8 +38,11 @@
         <h1>tea timer</h1>
         <button class="button button1" onclick="startTimer(180)">light</br>brew</button>
         <button class="button button2" onclick="startTimer(300)">heavy</br>brew</button>
-        <div id="timer">Waiting</div>
+        <div id="timer">waiting</div>
     </div>
+    <footer>
+        <p>Website made by me ~ me@krill0w.garden</p>
+    </footer>
 </body>
 
 </html>
