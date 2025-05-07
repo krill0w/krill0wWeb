@@ -65,17 +65,17 @@ body{
 }
 
 .hidden-link {
-    color: #86ca91;
+    color: #000000;
     text-decoration: none;
 }
 
 .hidden-link > a:hover {
-    color: #86ca91;
+    color: #000000;
     text-decoration: none;
 }
 
 .hidden-link > a:visited {
-    color: #86ca91;
+    color: #000000;
     text-decoration: none;
 }
 

@@ -13,16 +13,20 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: "Penpoint";
     background-color: var(--pistachio);
+    overflow: hidden;
 }
 
 .container {
     text-align: center;
+    margin-top: 30vh;
+    flex-grow: 1;
 }
 
 .button {
