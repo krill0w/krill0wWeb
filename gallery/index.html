@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>gallery</h1>
+	<a class="fancy-link" href="https://krill0w.garden">home</a>
+        <button id="admin-button" onclick="toggleAdminLogin()">Admin Login</button>
+    </header>
+    <main>
+        <div class="gallery" id="gallery"></div>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <div id="admin-panel" class="admin-panel" style="display: none;">
+        <h2>Admin Panel</h2>
+        <input type="text" id="title" placeholder="Image Title">
+        <input type="text" id="description" placeholder="Image Description">
+        <input type="text" id="image" placeholder="Image URL">
+        <button onclick="addImage()">Add Image</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div id="login-modal" class="modal" style="display: none;">
+        <span class="close" onclick="closeLoginModal()">&times;</span>
+        <div class="modal-content">
+            <h2>Admin Login</h2>
+            <input type="password" id="admin-password" placeholder="Enter Password">
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
