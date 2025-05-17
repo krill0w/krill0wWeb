@@ -11,11 +11,14 @@
     --eggplant: #453643ff;
 }
 
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     margin: 0;
     font-family: "Penpoint";
@@ -25,8 +28,8 @@ body {
 
 .container {
     text-align: center;
-    margin-top: 30vh;
     flex-grow: 1;
+    align-items: center;
 }
 
 .button {
