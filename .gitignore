@@ -1,6 +1,3 @@
-/.idea/
-/.vscode/
-/owncloud/
-/custom_disable_timer
-/owncloud-complete-20240724.zip
-/phpinfo.php
+
+assets\fonts\masstransitmono_regular_v1.1-webfont.woff2
+phpinfo.php

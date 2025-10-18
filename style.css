@@ -1,41 +1,41 @@
 @font-face {
-    font-family: "SpecialElite";
-    src: url("assets/fonts/SpecialElite.woff2") format("woff2");
+    font-family: "MassTransitMono";
+    src: url("assets/fonts/masstransitmono_regular_v1.1-webfont.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: "NectoMono";
-    src: url("assets/fonts/NectoMono-Regular.woff2") format("woff2");
-}
-
-body{
-    background-image: url("assets/images/websiteBG.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
+body {
+    background-color: black;
     height: 100%;
     overflow: hidden;
+    font-family: "MassTransitMono", monospace;
 }
 
 .container {
-    width:100%;
+    border: 2px dotted white;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .title {
-    font-size: 3em;
-    font-family: SpecialElite, monospace;
-    margin-bottom: 8px;
+    font-size: 5em;
+    font-family: "MassTransitMono";
+    color: orange;
+}
+
+/* this should be aligned on the left on the same line as the status */
+.time {
+    color: orange;
+}
+
+/* this should be aligned on the right on the same line as the time */
+.status {
+    color: orange;
 }
 
 .subtitle {
     font-size: 1em;
-    font-family: 'NectoMono', monospace;
     margin-top: 8px;
 }
 
@@ -46,14 +46,15 @@ body{
 }
 
 .page {
-    padding: 0em 15vw;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    border: 2px solid white;
     font-size: 1em;
     justify-content: left;
-    font-family: 'NectoMono', monospace;
 }
 
 .fancy-link {
-    color:#466a4c;
+    color: #466a4c;
     transition: color .1s, background-color .1s;
     background-color: #7d968266;
     text-decoration: none;
@@ -65,22 +66,9 @@ body{
     flex-direction: row
 }
 
-.hidden-link {
-    color: #000000;
+p, a {
+    font-size: 3em;
+    color: white;
     text-decoration: none;
-}
-
-.hidden-link > a:hover {
-    color: #000000;
-    text-decoration: none;
-}
-
-.hidden-link > a:visited {
-    color: #000000;
-    text-decoration: none;
-}
-
-.loading {
-    width: 2em;
-    padding-left: 15vw;
+    font-weight: lighter;
 }
