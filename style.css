@@ -54,6 +54,12 @@ div {
     color: orange;
 }
 
+#status a {
+    margin: 0;
+    color: orange;
+    text-decoration: none;
+}
+
 .topbar {
     display: flex;
     justify-content: space-between;
