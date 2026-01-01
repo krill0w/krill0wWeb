@@ -1,86 +1,118 @@
 @font-face {
-    font-family: "SpecialElite";
-    src: url("assets/fonts/SpecialElite.woff2") format("woff2");
+    font-family: "MassTransitMono";
+    src: url("assets/fonts/masstransitmono_regular_v1.1-webfont.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: "NectoMono";
-    src: url("assets/fonts/NectoMono-Regular.woff2") format("woff2");
-}
-
-body{
-    background-image: url("assets/images/websiteBG.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
+body {
+    background-color: black;
     height: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "MassTransitMono", monospace;
+    color: orange;
 }
 
-.container {
-    width:100%;
+
+.box {
+    border: 3px solid white;
+    width: 400px;
+    height: 600px;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#time {
+    color: orange;
+    font-size: 3em;
+    height: fit-content;
+    width: fit-content;
+    margin: 5px 12.5px 5px 5px;
+}
+
+#status {
+    font-size: 2.01em;
+    height: fit-content;
+    width: fit-content;
+    float: right;
+    margin: 5px 5px 5px 12.5px;
+}
+
+#status p {
+    margin: 0;
+    color: orange;
+}
+
+#status a {
+    margin: 0;
+    color: orange;
+    text-decoration: none;
+}
+
+.topbar {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-bottom: none;
 }
 
 .title {
-    font-size: 3em;
-    font-family: SpecialElite, monospace;
-    margin-bottom: 8px;
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
+}
+
+.title p {
+    font-size: 2.6em;
+    font-family: "MassTransitMono";
+    color: orange;
+    margin: 5px;
+}
+
+.entry {
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
+    border-bottom: 5px solid black;
+}
+
+.entry a {
+    font-size: 1.5em;
+    font-family: "MassTransitMono";
+    color: orange;
+    margin: 5px;
+    text-decoration: none;
 }
 
 .subtitle {
-    font-size: 1em;
-    font-family: 'NectoMono', monospace;
-    margin-top: 8px;
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
+    border-bottom: none;
 }
 
-.subsubtitle {
-    font-size: .95em;
-    font-family: 'NectoMono', monospace;
-    margin-top: 4px;
+.subtitle p {
+    font-size: 1.5em;
+    font-family: "MassTransitMono";
+    color: orange;
+    margin: 5px;
 }
 
-.page {
-    padding: 0em 15vw;
-    font-size: 1em;
-    justify-content: left;
-    font-family: 'NectoMono', monospace;
-}
-
-.fancy-link {
-    color:#466a4c;
-    transition: color .1s, background-color .1s;
-    background-color: #7d968266;
+p, a {
+    font-size: 1.5em;
+    color: white;
     text-decoration: none;
-    border-radius: 4px;
-    padding: .16em .3em;
-    margin: -.2em 0;
-    line-height: 1.7;
-    white-space: nowrap;
-    flex-direction: row
-}
-
-.hidden-link {
-    color: #000000;
-    text-decoration: none;
-}
-
-.hidden-link > a:hover {
-    color: #000000;
-    text-decoration: none;
-}
-
-.hidden-link > a:visited {
-    color: #000000;
-    text-decoration: none;
-}
-
-.loading {
-    width: 2em;
-    padding-left: 15vw;
+    font-weight: lighter;
 }
