@@ -62,14 +62,43 @@ div {
     border-bottom: none;
 }
 
-.title{
-        background-color: rgba(255, 166, 0, 0.05);
-        border: 10px solid black;
-        border-top: none;
+.title {
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
 }
 
 .title p {
     font-size: 2.6em;
+    font-family: "MassTransitMono";
+    color: orange;
+    margin: 5px;
+}
+
+.entry {
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
+    border-bottom: 5px solid black;
+}
+
+.entry a {
+    font-size: 1.5em;
+    font-family: "MassTransitMono";
+    color: orange;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.subtitle {
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.subtitle p {
+    font-size: 1.5em;
     font-family: "MassTransitMono";
     color: orange;
     margin: 5px;
