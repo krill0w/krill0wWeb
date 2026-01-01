@@ -1,1 +1,2 @@
 this is to make sure that the branch pushes correctly so i can redesign my website
+editing this to make sure i'm on the right branch
