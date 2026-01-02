@@ -64,13 +64,13 @@ div {
     display: flex;
     justify-content: space-between;
     background-color: rgba(255, 166, 0, 0.05);
-    border: 10px solid black;
+    border: 10px solid #0a0a0a;
     border-bottom: none;
 }
 
 .title {
     background-color: rgba(255, 166, 0, 0.05);
-    border: 10px solid black;
+    border: 10px solid #0a0a0a;
     border-top: none;
 }
 
@@ -83,9 +83,9 @@ div {
 
 .entry {
     background-color: rgba(255, 166, 0, 0.05);
-    border: 10px solid black;
+    border: 10px solid #0a0a0a;
     border-top: none;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #0a0a0a;
 }
 
 .entry a {
@@ -98,7 +98,7 @@ div {
 
 .subtitle {
     background-color: rgba(255, 166, 0, 0.05);
-    border: 10px solid black;
+    border: 10px solid #0a0a0a;
     border-top: none;
     border-bottom: none;
 }
@@ -115,4 +115,23 @@ p, a {
     color: white;
     text-decoration: none;
     font-weight: lighter;
+}
+
+.textblock {
+    background-color: rgba(255, 166, 0, 0.05);
+    border: 10px solid #0a0a0a;
+    border-top: none;
+    border-bottom: 5px solid #0a0a0a;
+}
+
+.textblock p {
+    font-size: 1em;
+    font-family: "MassTransitMono";
+    color: white;
+    margin: 5px;
+}
+
+.textblock a {
+  color: lightblue;
+  font-size: 1em;
 }
