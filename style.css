@@ -46,6 +46,8 @@ header {
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
     background-color: #0a0a0a;
     border: 10px solid #0a0a0a;
     height: 40px;
