@@ -1,11 +1,21 @@
 @font-face {
     font-family: "MassTransitMono";
-    src: url("assets/fonts/masstransitmono_regular_v1.1-webfont.woff2") format("woff2");
+    src: url("/assets/fonts/masstransitmono_regular_v1.1-webfont.woff2") format("woff2");
 }
 
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+}
+
+@keyframes widen {
+    0%   {width: 400px;}
+    100% {width: 800px;}
+}
+
+@keyframes shrink {
+    0%   {width: auto;}
+    100% {width: 400px;}
 }
 
 /* ELEMENT STYLING */
@@ -46,8 +56,6 @@ header {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: row-reverse;
     background-color: #0a0a0a;
     border: 10px solid #0a0a0a;
     height: 40px;
@@ -67,9 +75,7 @@ h1 {
   margin: 0px 5px;
 }
 
-.button {
-  margin: 10px;
-}
+
 
 /* HEADER CONTENT STYLING */
 #time {
@@ -90,7 +96,22 @@ h1 {
     margin: 0;
 }
 
+
+
 /* MAIN CONTENT STYLING */
+.grow {
+    animation-name: widen;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.shrink {
+    animation-name: shrink;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
 .title {
     background-color: rgba(255, 166, 0, 0.05);
     border: 10px solid #0a0a0a;
@@ -129,7 +150,18 @@ h1 {
     margin: 0px 5px;
 }
 
-#textblock {
+.subentry {
+    border-top: none;
+    border-bottom: 5px solid #0a0a0a;
+}
+
+.subentry p {
+    font-size: 1.1em;
+    margin: 0px 5px;
+    color: white;
+}
+
+.textblock {
     background-color: rgba(255, 166, 0, 0.05);
     border: 10px solid #0a0a0a;
     border-top: none;
@@ -137,24 +169,19 @@ h1 {
     overflow-y: auto;
 }
 
-#textblock p {
+.textblock p {
     font-size: 1em;
     font-family: "MassTransitMono";
     color: white;
     margin: 2.5px 5px;
 }
 
-#textblock a {
+.textblock a {
   color: lightblue;
   font-size: 1em;
 }
 
 
-.scrolling-subtitle p {
-    font-size: 1.5em;
-    font-family: "MassTransitMono";
-    margin: 0px 5px;
-}
 
 /* FOOTER CONTENT STYLING */
 .left, .right {
