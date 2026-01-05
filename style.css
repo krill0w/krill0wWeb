@@ -129,7 +129,7 @@ h1 {
     margin: 0px 5px;
 }
 
-#textblock {
+.textblock {
     background-color: rgba(255, 166, 0, 0.05);
     border: 10px solid #0a0a0a;
     border-top: none;
@@ -137,14 +137,14 @@ h1 {
     overflow-y: auto;
 }
 
-#textblock p {
+.textblock p {
     font-size: 1em;
     font-family: "MassTransitMono";
     color: white;
     margin: 2.5px 5px;
 }
 
-#textblock a {
+.textblock a {
   color: lightblue;
   font-size: 1em;
 }
